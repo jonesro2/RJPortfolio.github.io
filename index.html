@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Robin Jones Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Robin Jones<br />
+						Bioinformatics Portfolio</h1>
+						<p>Aspiring Bioinformatics Scientist skilled in R,Python and Multi-omics Analysis <a href="https://www.linkedin.com/in/rjones7642/">visit my LinkedIn</a>.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Robin Jones</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+							<li><a href="generic.html">TCGA BRCA RMarkdown</a></li>
+							<li><a href="elements.html">Comparative Analysis RMarkdown</a></li>
+							<li><a href="Structural.html">Drug Target Analysis</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/rjones7642/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">My Projects <br />
+									</a></h2>
+									<p>Welcome to my portfolio of bioinformatics projects! These projects highlight my ability to work with a broad range of tools and skills in bioinformatics. </p>
+								</header>
+								<a class="image main"><img src="Heatmap.png" alt="" /></a>
+								<ul class="actions special">
+
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/R:%20TCGA%20BRCA%20Project">R: Predictive Modeling for <br />
+											Breast Cancer Classification </a></h2>
+									</header>
+									<a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/R:%20TCGA%20BRCA%20Project" class="image fit"><img src="BRCA.png" alt="" /></a>
+									<p>Conducted an in-depth analysis of The Cancer Genome Atlas (TCGA) dataset to develop a predictive model for breast cancer classification. Leveraged TCGA's extensive multi-omics data, including gene expression profiles, to build and evaluate various machine learning models, such as logistic regression, linear regression, random forest, support vector machines (SVM), and neural networks. Explored critical aspects of the dataset, including gene-gene correlations, data variance, and principle component analysis. Successfully separated data into training and testing sets and fine-tuned model parameters. Compared model performances, offering insights into the most effective approach for breast cancer classification.
+										<br />
+										Key Achievements:<br />
+										
+										•	Utilized TCGA data to address the challenging task of breast cancer classification.<br />
+										•	Investigated relationships between variables to identify any possible confounding variables<br />
+										•	Explored gene-gene correlations, data variance, and performed principal component analysis to inform feature selection.<br />
+										•	Utilized forward selection to select genes that were least correlated with each other while still being closely correlated with breast cancer <br />
+										•	Implemented logistic regression, random forest, SVM, and neural network models to predict breast cancer cases.<br />
+										•	Employed a leave-n-out method to split data into training and testing sets<br />
+										•	Conducted rigorous cross-validation and evaluation of models, providing valuable insights into their performance.<br />
+
+										This project not only demonstrates my ability to work with complex biomedical data but also showcases my proficiency in machine learning, data analysis and R programming techniques, all of which are valuable skills in the field of bioinformatics.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/jonesro2/Portfolio_Projects/blob/main/R%3A%20TCGA%20BRCA%20Project/BRCA%20Project%20Code" class="button">View Code on GitHub</a></li>
+										<li><a href="generic.html" class="button">View Write-Up and Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">R: Comparative Analysis of mRNA and Protein Levels in Humans and Chimpanzees<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="Chimp regression.png" alt="" /></a>
+									<p>The project involved the analysis of gene and protein expression data from chimpanzees and humans in two datasets (143 and 159). The main objectives were to investigate the relationships between gene expression (mRNA) and protein expression in both species and compare the results to a previously published study (Fu et al., 2007). <br />
+
+										Key Achievements: <br />
+										
+										•	Scatter Plot Construction and Analysis: Visual inspection of scatter plots revealed a potential positive relationship between mRNA expression levels in chimpanzees and humans, suggesting that genes with lower expression in chimpanzees also tend to have lower expression in humans. This trend was observed across a range of expression levels. <br />
+										
+										•	Correlation Analysis: Pearson correlation coefficients were calculated, confirming a strong positive relationship between chimpanzee and human mRNA expression in both datasets, indicating that genes expressed weakly in chimpanzees were also expressed weakly in humans. However, protein expression showed a moderate to weak negative relationship between species in both datasets, suggesting that an increase in chimpanzee protein expression correlated with a decrease in human protein expression. <br />
+										
+										•	Linear Modeling Including Diagnostics: Linear models were fitted to mRNA and protein expression data. For mRNA, the models showed a significant positive relationship between chimpanzee and human expression differences in both datasets. For protein, the models indicated a significant negative relationship in dataset 143 and a significant positive relationship in dataset 159. Diagnostic plots were generated and interpreted to assess goodness of fit. <br />
+										
+										•	Statistical Tests: T-tests and ANOVA tests were performed to identify genes with significantly different expression levels between chimpanzees and humans. The analysis identified differentially expressed genes for mRNA in both datasets and for protein in dataset 159, but not in dataset 143. <br />
+										
+										
+										•	Comparison with Previous Study: The project attempted to replicate the results of Fu et al., 2007, and found discrepancies in the mRNA and protein relationships. The analysis suggested that the previous study might have used different calculations for mean differences in mRNA and protein levels, resulting in different conclusions. <br />
+										
+										Conclusion:
+										This project provided valuable insights into the relationships between gene expression in chimpanzees and humans at both the mRNA and protein levels. The positive correlation between mRNA expression levels across species suggests a strong conservation of gene expression patterns. However, the negative relationship between protein expression levels indicates differences in post-transcriptional regulation. <br />
+										
+										The analysis also raised questions about the previous study's methodology, highlighting the importance of transparent and reproducible research practices. Overall, this project enhanced my skills in data analysis, statistical modeling, and critical evaluation of scientific literature, emphasizing the importance of rigor and transparency in scientific research. It underscores the need for further investigation to better understand the complex relationship between gene expression and protein expression across species.
+										
+										A pivotal aspect of my investigation was the meticulous examination of data reproducibility. I assessed the consistency of the Fu et al. (2007) findings across the two distinct datasets, thereby ensuring the robustness of their conclusions.  A crucial discrepancy was found within the analysis of the relationships found by Fu et al. (2007). 
+										I also created plots and visual representations to effectively communicate my findings. Furthermore, I performed thorough linear model diagnostics, enhancing the reliability of my results.</p> <br /> 
+										<small>Fu, N., Drinnenberg, I., Kelso, J., Wu, J. R., Pääbo, S., Zeng, R., & Khaitovich, P. (2007). Comparison of protein and mRNA expression evolution in humans and chimpanzees. PloS one, 2(2), e216. </small>
+										
+									<ul class="actions special">
+										<li><a href="https://github.com/jonesro2/Portfolio_Projects/blob/main/R%3A%20Comparative%20Expression%20Analysis%20Project/Comparative%20Analysis%20Code" class="button">View Code on GitHub</a></li>
+										<li><a href="elements.html" class="button">View RMarkdown Write-up and Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Python:%20Fungal%20Mutation%20Analysis%20Pipeline%20Project">Python:Fungal Mutation Analysis Pipeline Development<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Python:%20Fungal%20Mutation%20Analysis%20Pipeline%20Project" class="image fit"><img src="fungi.jpg" alt="" /></a>
+									<p class="attribution"><a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/94192786@N00/6548991723"></a><a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/94192786@N00">Credit: Alpha Tauri</a> licensed under <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img></a>. </p>
+									<p>Description:
+										In this project, I developed a robust Python pipeline for the analysis of fungal mutations in a dataset comprising 50 patients infected with D. gorgon mold. The primary objective was to identify and analyze single nucleotide polymorphisms (SNPs) and mutations associated with this fungal infection. The project involved several critical steps and utilized a range of techniques and tools to achieve its goals.<br />
+										
+										Key Achievements:<br />
+										
+										Data Preprocessing: I successfully demultiplexed pooled fastq data, implementing barcode removal and quality trimming to ensure the integrity and accuracy of the genetic data.<br />
+										
+										Accurate Sequence Alignment: Using the Burrows-Wheeler Aligner (BWA), I aligned the sequences to a reference genome, thereby creating sorted Binary Alignment Map (BAM) files. This step was crucial for the subsequent mutation analysis.<br />
+										
+										Mutation Detection: Employing advanced mutation detection algorithms and techniques, I accurately identified single nucleotide polymorphisms (SNPs) and mutations within the dataset. This step involved meticulous data analysis and quality control.<br />
+										
+										Comprehensive Reporting: I generated a comprehensive report detailing the precise locations of mutations and their associations with mold colors. This report provided valuable insights into the genetic variations within the fungal population and their potential implications for patient health.<br />
+										
+										Deliverables:<br />
+										
+										Pipeline Script: The Python pipeline script (pipeline.py) that automates the entire mutation analysis process, ensuring reproducibility and efficiency.<br />
+										
+										Processed Data: Demultiplexed fastq files that have undergone barcode removal and quality trimming, ensuring clean and reliable input data for analysis.<br />
+										
+										Alignment Data: Sorted BAM files, which are essential for downstream analysis, enabling efficient mutation detection and interpretation.<br />
+										
+										Detailed Report: A comprehensive report summarizing the mutation locations and their associations with mold colors. This report serves as a valuable resource for researchers and medical professionals seeking insights into fungal mutations and their potential implications.<br />
+										
+										User-Friendly README: A user-friendly README file that provides clear instructions on how to use the pipeline script, ensuring ease of use and accessibility for other researchers or collaborators.<br />
+										
+										This project showcases my expertise in bioinformatics, data analysis, and Python programming. It highlights my ability to develop efficient and reproducible data analysis pipelines for complex biological datasets, ultimately contributing to our understanding of fungal infections and their genetic variations. 
+										<li><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Python:%20Fungal%20Mutation%20Analysis%20Pipeline%20Project" class="button">View Project on Github</a></li>
+								
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Python:%20Microbiome%20Diversity%20Analysis%20Project">Python:Microbiome Diversity Analysis <br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Python:%20Microbiome%20Diversity%20Analysis%20Project" class="image fit"><img src="Buffalo.png" alt="" /></a>
+									<p>Disclaimer: This project is a fictitious exercise completed as part of a course and does not represent any real Atreides Lab.<br />
+
+										As the newest member of the Atreides Lab, I had the unique opportunity to take over and complete the latest analysis left by Paul, the previous postdoc. This project involved collaboration with another lab and the analysis of clinical data, focusing on the microbiome of 50 samples. My responsibilities encompassed data manipulation, statistical analysis, and data visualization.
+										
+										Project Overview:<br />
+										
+										My work consisted of two main tasks:<br />
+										
+										1) Data Preprocessing and Statistical Analysis:
+										
+										Reading the clinical data from a file named "clinical_data.txt" into a Pandas DataFrame.
+										Calculating the mean and standard deviation of diversity scores for each sample, which were located in the "diversityScores" folder.
+										Appending these calculated values to the clinical data.
+										Saving the modified clinical data, including the original clinical information and the calculated statistics, to a new file called "clinical_data.stats.txt."
+										For this part of the project, I utilized the powerful Python libraries Pandas and Numpy to efficiently process and analyze the data.
+										<br />
+										2) Data Visualization:
+										
+										Identifying the two animal code names with the highest average diversity scores and one with the lowest average diversity score.
+										Locating the corresponding text files for these animals within the "distanceFiles" directory.
+										Creating scatter plots for each of the selected animals based on their diversity scores.
+										Saving these scatter plots as PNG files, and adding informative titles to each plot that included the animal's name.<br />
+										Key Achievements:
+										
+										Through this project, I honed my data analysis and visualization skills, gaining proficiency in Pandas and Numpy for data manipulation, and Matplotlib for data visualization. I successfully carried out data preprocessing and statistical calculations, making the data more informative and ready for further analysis. Additionally, I produced visually appealing scatter plots, making it easier to interpret the relationships between diversity scores and animal code names.
+										<br />
+										Conclusion:
+										
+										This project not only allowed me to contribute to the ongoing research at the fictitious Atreides Lab but also provided an excellent opportunity to showcase my data analysis and visualization skills. It highlights my ability to handle real-world data, extract meaningful insights, and communicate results effectively through data visualization.
+										
+										I am excited to apply the knowledge and experience gained from this project to future endeavors in data analysis and research.
+										
+										</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Python:%20Fungal%20Mutation%20Analysis%20Pipeline%20Project" class="button">View Project on GitHub</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Python:%20Genetic%20Analysis%20of%20Red%20Hair%20Trait">Python: Genetic Analysis of Red Hair Trait<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Python:%20Genetic%20Analysis%20of%20Red%20Hair%20Trait" class="image fit"><img src="Red animals.jpg" alt="" /></a>
+									<p class="attribution"><a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/81068486@N00/317320551"></a> by <a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/81068486@N00">Sephiroty Fiesta</a>  licensed under <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/2.0/?ref=openverse">CC BY-NC 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img></a>. </p>
+									<p>In this course project, I delved into the computational exploration of the MC1R gene, known for its involvement in determining red hair color. My project revolved around three distinct phases:<br />
+										Phase 1: Gene Identification
+										I initiated the project by utilizing the MyGene database RESTful API to identify first the Entrez gene ID and then the Ensembl ID associated with the MC1R gene. Focusing specifically on the human species, this step laid the foundation for subsequent investigations.<br />
+										Phase 2: Genetic Sequence Analysis
+										With the Ensembl ID in hand, I accessed the Ensembl database API to extract the nucleotide sequence of MC1R and write that to a FASTA file. I then identified the longest open reading frame (ORF) embedded within the gene. This ORF was further translated into an amino acid sequence using the Biopython library.<br />
+										Phase 3: Homology Discovery
+										In the final phase, I expanded the scope of the project to investigate the presence of genes homologous to MC1R in other species. This exploration aimed to uncover genetic parallels and divergences across the animal kingdom. This resulted in the compilation of a comprehensive list of species with genes homologous to MC1R, organized in a text file named "mc1r_homology_list.txt."<br />
+										Overall, this project exemplifies my proficiency in data retrieval using REST APIs, sequence analysis, and documentation while discovering the conservation of red hair color across various organisms. 
+										</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Python:%20Genetic%20Analysis%20of%20Red%20Hair%20Trait" class="button">View Project on GitHub</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+							
+										<h2><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Bash_Python:Identifying%20CRISPR_genes">Bash&Python: Identifying CRISPR Genes<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Bash_Python:Identifying%20CRISPR_genes" class="image fit"><img src="CRISPR.jpg" alt="" /></a>
+									<p class="attribution">"<a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/132318516@N08/41124064215">CRISPR Cas9</a>" by <a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/132318516@N08">National Institutes of Health (NIH)</a> is marked with <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/publicdomain/mark/1.0/?ref=openverse">Public Domain Mark 1.0 <img src="https://mirrors.creativecommons.org/presskit/icons/pd.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img></a>. </p>
+									<p>In this course project, a fictitious researcher, Dr. Banner, has discovered several unique eukaryotic organisms that appear to be related to each other. These organisms exhibit varying degrees of gamma ray resistance, and Dr. Banner aims to identify and knockout genes associated with this resistance using CRISPR technology. The project involves a series of steps to identify appropriate genes and sites suitable for CRISPR.
+									   I developed a comprehensive pipeline involving bash scripts and a Python script to analyze genomic data, identify motifs, locate CRISPR sites, edit genomes, and generate a summary report. This multi-step process aimed to extract meaningful insights from genetic data.<br />
+
+										Step 1: Filtering and Copying Genomic Data<br />
+										
+										I initiated the project by creating a bash script called copyExomes.sh. This script read in clinical data and identified samples with diameters between 20 and 30 mm, ensuring they had their genomes sequenced. The selected exomes were then copied to a new directory called exomesCohort. This step helped narrow down the dataset for further analysis.<br />
+										
+										Step 2: Identifying Top Motifs<br />
+										
+										In the next phase, I developed the bash script createCrisprReady.sh. This script utilized a motif list from motif_list.txt to identify the three highest occurring motifs in each exome within the exomesCohort folder. It then generated new files named {exomename}_topmotifs.fasta, containing the headers and corresponding sequences for genes that had at least one of the top three motifs.
+										<br />
+										Step 3: Finding CRISPR Sites<br />
+										
+										The identifyCrisprSite.sh bash script was crafted to identify suitable CRISPR sites within the genes identified in the previous step. It searched for sequences containing "NGG," where "N" could be any base, and had at least 20 base pairs upstream. Suitable candidates, including headers and sequences, were saved to files named {exomename}_precrispr.fasta.
+										<br />
+										Step 4: Genome Editing<br />
+										
+										The subsequent bash script, editGenome.sh, utilized the files generated in the previous step to perform genome editing. It inserted the letter "A" right before the "NGG" site and saved the edited sequences to new files named {exomename}_postcrispr.fasta.
+										<br />
+										Step 5: Generating a Summary Report<br />
+										
+										To consolidate the findings and create a comprehensive report, I developed a Python script called exomeReport.py. This script summarized critical information, including the name of the organism's discoverer, diameter, code name, and environment of origin. It also identified genes present in the cohort, ensuring there were no duplicates. The report provided a concise yet informative overview of the genetic characteristics of the organisms within the specified cohort.<br />
+										
+										This project showcased my proficiency in data manipulation, sequence analysis, and script development, ultimately enabling the extraction of valuable insights from genomic data. It demonstrated my ability to handle complex genetic datasets and generate meaningful reports for further research and analysis.
+										
+										
+										
+										
+										</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main/Bash_Python:Identifying%20CRISPR_genes" class="button">View Project on GitHub</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+							
+										<h2><a href="Structural.html">Exploring the Potential Pharmacological Inhibition of 3-Methyladenine<br /> Glycosylase I<br />
+										</a></h2>
+									</header>
+									<a href="Structural.html"class="image fit"><img src="3MPG binding site.png" alt="" /></a>
+									
+									<p>This project involves a comprehensive analysis of 3-MPG-I based on both sequence and structural data, as well as an assessment of its druggability and potential for drug specificity.<br />
+										Techniques/Tools:<br />
+										•	Evolutionary Analysis and Sequence Alignment of 3-MPG-I: BLAST, Jalview with Clustal-O alignment<br />
+										•	Comparative Structural Analysis: PDB, Interpro, CATH, DALI, PYMOL<br />
+										•	Pocket Identification: CASTp, POCASSA, GHECOM<br />
+										•	Binding Site Analysis: PYMOL<br />
+										Outcome: Identified 3-Methyladenine Glycosylase I (3-MPG-I) as a promising pharmacological target, with evidence supporting potential broad-spectrum bacterial specificity and druggability of the enzyme's binding site.
+										
+										</p>
+									<ul class="actions special">
+										<li><a href="Structural.html" class="button">View Project </a></li>
+									</ul>
+								</article>
+							</section>
+			
+				<
+					<
+						<section class="split contact">
+							<section class="alt">
+								<h3>Location</h3>
+								<p>Syracuse, NY </p>
+							</section>
+							<section>
+		
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">rljone02@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+
+									<li><a href="https://www.linkedin.com/in/rjones7642/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+									<li><a href="https://github.com/jonesro2/Portfolio_Projects/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
